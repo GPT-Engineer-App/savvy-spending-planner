@@ -4,7 +4,7 @@ import { FaPlus, FaEdit, FaTrash, FaDownload } from "react-icons/fa";
 
 const Index = () => {
   const toast = useToast();
-  const initialFormData = { date: "", amount: "", type: "income", category: "" };
+  const initialFormData = { date: "", amount: "", type: "income", category: "groceries" };
   const [transactions, setTransactions] = useState([]);
   const [formData, setFormData] = useState(initialFormData);
   const [editingId, setEditingId] = useState(null);
